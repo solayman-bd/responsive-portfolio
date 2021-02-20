@@ -112,7 +112,7 @@ body {
 footer {
   margin: 20px auto;
   padding-bottom: 20px;
-  width: 30%;
+  width: 40%;
   text-align: center;
 }
 .one-third-footer {
@@ -200,6 +200,9 @@ h3 {
   .one-third-footer {
     width: 20%;
   }
+  .footer-mail {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -217,5 +220,77 @@ h3 {
   #work-inquiry a {
     float: right;
     margin: 20px 5px 0 0;
+  }
+  .footer-mail {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .mobile-image {
+    margin-top: 50%;
+    width: 100%;
+  }
+  #menu-bar {
+    width: 100%;
+  }
+
+  #welcome {
+    height: 210px;
+  }
+  .intro-div {
+    font-size: 0.6rem;
+  }
+
+  #about {
+    height: 200px;
+  }
+
+  .link {
+    font-size: 0.5rem;
+  }
+  #latest-work {
+    height: 400px;
+  }
+  #latest-work h1 {
+    font-size: 1rem;
+  }
+
+  .one-third {
+    height: 260px;
+  }
+  .experience-mobile {
+    height: 300px;
+  }
+
+  .experience-mobile h2,
+  h3 {
+    font-size: 0.9rem;
+  }
+  .experience-mobile p {
+    font-size: 0.7rem;
+  }
+  #work-inquiry {
+    margin: 0 auto;
+    height: 75px;
+    width: 80%;
+  }
+  #work-inquiry h1 {
+    font-size: 1rem;
+    margin-left: 8px;
+  }
+  #work-inquiry a {
+    float: right;
+    margin: 25px 5px 0 0;
+  }
+  #work-experience {
+    margin-top: 40px;
+    height: 380px;
+  }
+  #work-experience h1 {
+    font-size: 1.2rem;
+  }
+
+  .footer-mail {
+    font-size: 1rem;
   }
 }
