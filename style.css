@@ -1,0 +1,203 @@
+.highlighter {
+  color: tomato;
+}
+
+#menu-bar {
+  height: 20px;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.center {
+  text-align: center;
+}
+.menu {
+  text-decoration: none;
+  padding: 5px 10px;
+  float: right;
+  color: rgb(82, 70, 70);
+}
+.menu:hover {
+  text-decoration: underline;
+}
+.half-width {
+  width: 40%;
+  margin-left: 2%;
+  padding-top: 5%;
+  font-size: 1.3rem;
+  float: left;
+  text-align: justify;
+}
+.one-third {
+  width: 27%;
+  box-shadow: 10px 10px 20px gray;
+  float: left;
+  margin: 0 2%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 1%;
+  height: 350px;
+  font-size: 1.2rem;
+}
+.one-third img {
+  width: 100%;
+}
+
+#welcome {
+  height: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.link {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, tomato, rgb(235, 133, 122));
+  padding: 10px 25px;
+  color: white;
+  border-radius: 10px;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.half-width img {
+  width: 100%;
+}
+#about {
+  height: 620px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#latest-work {
+  height: 600px;
+  background-color: rgb(241, 238, 238);
+}
+
+#latest-work h1 {
+  font-size: 1.6rem;
+}
+
+#work-experience {
+  margin-top: 40px;
+  height: 350px;
+}
+#work-experience h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: blueviolet;
+}
+#work-inquiry {
+  margin: 125px auto;
+  height: 180px;
+  width: 60%;
+  background-image: url(shapes/Group_33094_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+#work-inquiry h1 {
+  margin: 75px 0 0 50px;
+  float: left;
+  font-size: 2rem;
+  color: white;
+}
+#work-inquiry a {
+  float: right;
+  margin: 75px 30px 0 0;
+}
+footer {
+  margin: 20px auto;
+  padding-bottom: 20px;
+  width: 30%;
+  text-align: center;
+}
+.one-third-footer {
+  width: 8%;
+  padding: 0px 5px;
+  display: inline-block;
+}
+.one-third-footer img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.one-third-footer img:hover {
+  width: 80%;
+}
+
+.creativity:hover {
+  box-shadow: 10px 20px 20px rgb(139, 173, 192);
+}
+@media screen and (max-width: 425px) {
+  .half-width {
+    font-size: 1rem;
+  }
+  .mobile-image {
+    margin-top: 40%;
+    width: 100%;
+  }
+  #menu-bar {
+    width: 75%;
+    margin: 20px auto;
+  }
+
+  .menu {
+    float: none;
+  }
+  #welcome {
+    height: 340px;
+  }
+  .intro-div {
+    font-size: 0.9rem;
+  }
+  #about {
+    height: 350px;
+  }
+  .link {
+    font-size: 0.7rem;
+  }
+  #latest-work {
+    height: 400px;
+  }
+  .one-third {
+    height: 250px;
+    font-size: 0.9rem;
+  }
+  #work-experience {
+    margin-top: 10px;
+    height: 500px;
+  }
+  .experience-mobile {
+    height: 300px;
+  }
+
+  .experience-mobile h2,
+  h3 {
+    font-size: 1rem;
+  }
+  #work-inquiry {
+    margin: 0 auto;
+    height: 80px;
+    width: 80%;
+  }
+  #work-inquiry h1 {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    color: white;
+  }
+  #work-inquiry a {
+    float: right;
+    margin: 25px 5px 0 0;
+  }
+  #work-experience {
+    margin-top: 40px;
+    height: 400px;
+  }
+}
