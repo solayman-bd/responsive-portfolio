@@ -170,10 +170,6 @@ h3 {
     height: 250px;
     font-size: 0.9rem;
   }
-  #work-experience {
-    margin-top: 10px;
-    height: 500px;
-  }
   .experience-mobile {
     height: 300px;
   }
@@ -199,5 +195,23 @@ h3 {
   #work-experience {
     margin-top: 40px;
     height: 400px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #work-experience {
+    height: 500px;
+  }
+
+  .experience-mobile {
+    height: 360px;
+  }
+
+  #work-inquiry h1 {
+    font-size: 1rem;
+  }
+  #work-inquiry a {
+    float: right;
+    margin: 20px 5px 0 0;
   }
 }
